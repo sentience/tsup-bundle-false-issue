@@ -1,0 +1,16 @@
+{
+  "name": "tsup-bundle-false-issue",
+  "version": "0.0.1",
+  "description": "Reproduction for tsup issue",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "Kevin Yank <thatguy@kevinyank.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
